@@ -1,0 +1,30 @@
+.auth {
+  background-image: url("../../../public/images/auth-bg.png");
+  min-height: 100vh;
+  background-size: 100% 100%;
+  align-items: center;
+  display: grid;
+  .login {
+    .login-card {
+      width: 31.25rem;
+      @media screen and (max-width: 578px) {
+        width: 21.25rem;
+      }
+      @media screen and (max-width: 375px) {
+        width: auto;
+      }
+    }
+  }
+}
+
+.signup{
+  background-image: url("../../../public/images/onboardingscreen/background.png");
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-color: #E2FBFF;
+  padding: 4rem 5rem 0 5rem;
+  // height: 100vh;
+  @media screen and (max-width:1400px) {
+    height: inherit;
+  }
+}

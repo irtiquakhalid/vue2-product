@@ -1,0 +1,42 @@
+.chats{
+    width: 97%;
+    max-height: 900px;
+    min-height: 800px;
+    .chatscroll {
+      overflow-y: scroll;
+      height: 95%; 
+      // Scrollbar styles
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+    
+      // Track
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px white;
+        border-radius: 10px;
+      }
+    
+      // Handle
+      &::-webkit-scrollbar-thumb {
+        background: #D9D9D9;
+        border-radius: 10px;
+      }
+    
+      // Handle on hover
+      &::-webkit-scrollbar-thumb:hover {
+        background: #D9D9D9;
+      }
+    }
+  }
+  .chat-uploadfile{
+    position: relative;
+    .input-file{
+      position: absolute;
+      top: 0;
+      left: 21%;
+      width: 87px;
+      height: 87px;
+      border-radius: 50%;
+      opacity: 0;
+    }
+  }

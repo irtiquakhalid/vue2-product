@@ -1,0 +1,71 @@
+.cyan-text{
+    color: #1BA8BB !important;
+}
+
+.white-background{
+    background-color: #FFFFFF !important;
+}
+
+.white-text{
+    color: #FFFFFF;
+}
+
+.cyan-background{
+    background-color: #1BA8BB !important;
+}
+
+.cyan-background-light{
+    background-color: #E1F2FF;
+}
+
+.grey-background{
+    background-color: #F6F6F6;
+}
+.black-text-400{
+    color: #3A3A3A;
+}
+.black-text-500{
+    color: #373737;
+}
+.black-text-600{
+    color: #303131;
+}
+
+.grey-text-200{
+    color: #6d6d6d;
+}
+
+.grey-text-300{
+    color: #A6A6A6;
+}
+.grey-text-600{
+    color: #868686;
+}
+
+.grey-text-400{
+    color: #CBDADC;
+}
+
+.grey-text-500{
+    color: #C2C2C2;
+}
+
+.grey-text-700{
+    color: #494949;
+}
+
+.cyan-text-100{
+    color: #DBF4FF;
+}
+
+.border-cyan{
+    border-color: #1BA8BB !important;
+}
+
+.gradiant-background{
+    background: linear-gradient(to right, #265780, #1BA8BB);
+}
+
+.dynamic-color {
+    color: var(--primary-color) !important;
+}
